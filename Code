@@ -1,0 +1,20 @@
+#I immediatly multiply the shoot made by its value in the input to get the number of points scored
+
+apples_3pts= int(input())*3
+apples_2pts = int(input())*2
+apples_1pt=int(input())
+
+bananas_3pts= int(input())*3
+bananas_2pts = int(input())*2
+bananas_1pt=int(input())
+
+total_apples = apples_3pts + apples_2pts + apples_1pt
+
+total_bananas = bananas_3pts + bananas_2pts + bananas_1pt
+
+if total_apples > total_bananas :
+    print('A')
+elif total_bananas > total_apples:
+    print('B')
+else :
+    print('T')
